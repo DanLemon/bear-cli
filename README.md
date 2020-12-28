@@ -37,16 +37,28 @@ cyzabc 用户名
 ## 基本配置信息
 
 Options:
+
   -V, --version   output the version number
+  
   -h, --help      display help for command
+  
 
 Commands:
+
   create|c        create a project
+  
   config|conf     config project variable
-  *               command not found
-    help [command]  display help for command
+  
+  *command not found
+  
+  help [command]  display help for command
+    
 
 Examples
+
 bear-cli create <project-name>
+  
 bear-cli config set <k><v>
+  
 bear-cli config get <k>
+  
